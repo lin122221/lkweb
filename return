@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Onboarding Complete</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 40px;
+      background-color: #f4f4f4;
+    }
+    .container {
+      background: white;
+      max-width: 500px;
+      margin: auto;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      color: #2e7d32;
+    }
+    p {
+      color: #555;
+    }
+    a {
+      display: inline-block;
+      margin-top: 20px;
+      text-decoration: none;
+      background: #2e7d32;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+    a:hover {
+      background: #256029;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🎉 Onboarding Complete</h1>
+    <p>Your Stripe account has been set up successfully.</p>
+    <a href="/">Return to Home</a>
+  </div>
+</body>
+</html>
